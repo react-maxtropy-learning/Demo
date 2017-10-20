@@ -5,6 +5,51 @@
   right: 0;
   display: block;
   width: 1280px;
-  height: 56px;
+  height: 60px;
   border-bottom: 1px solid #ddd;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+.c-header-logo {
+  width: 20%;
+  height: 60px;
+  background: #fcc;
+  border: 1px solid #000;
+}
+.c-header-nav {
+  width: 50%;
+  height: 62px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.c-header-user{
+  width: 30%;
+  height: 62px;
+}
+.c-header-user-login{
+  height: 62px;
+}
+.c-header-user-unlogin{
+  width: 50%;
+  text-align: center;
+  height: 62px;
+
+}
+.c-header-user-unlogin a:first{
+  border-right: 1px solid #000;
+}
+.c-header-user-unlogin a{
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.login{
+  height: 62px;
+  line-height: 62px;
+}
+.login p{
+  display: inline-block;
+  margin: 0;
 }
